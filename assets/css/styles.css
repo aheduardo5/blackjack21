@@ -1,0 +1,29 @@
+html, body{
+    margin: 0px;
+    background-color: #2f4f30;
+}
+.titulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.titulo:hover{
+    transition: 500ms;
+    color: black;
+    background-color: white;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#jugador-cartas, #computadora-cartas{
+    height: 230px;
+}
