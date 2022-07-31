@@ -1,20 +1,16 @@
-html, body{
+html, body {
     margin: 0px;
-    background-color: #2f4f30;
+    background-color: #2F4F30;
+    color: white;
 }
-.titulo{
+
+
+.titulo {
     text-align: center;
     background-color: black;
     color: white;
-    font-weight: 800;
-    padding: 5px 0;
-    font-size: 20px;
-}
-
-.titulo:hover{
-    transition: 500ms;
-    color: black;
-    background-color: white;
+    padding: 20px;
+    font-size: 25px;
 }
 
 .carta {
@@ -24,6 +20,6 @@ html, body{
     margin-left: -75px;
 }
 
-#jugador-cartas, #computadora-cartas{
-    height: 230px;
+#computadora-cartas, #jugador-cartas {
+    height: 240px;
 }
